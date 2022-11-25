@@ -18,7 +18,6 @@ function next() {
     document.querySelector('.block2').style.backgroundImage= "url(" + massiv[i] + ")";
     document.querySelector('.heroName').innerHTML = massiv_hero_name[i];
     document.querySelector('.history').innerHTML = massiv_hero_history[i];
-    document.querySelector('.person').src = hero_logo[i];
     if (i==4) {
         audio.play();     
               }
@@ -33,7 +32,6 @@ function back() {
     document.querySelector('.block2').style.backgroundImage= "url(" + massiv[i] + ")";
     document.querySelector('.heroName').innerHTML = massiv_hero_name[i];
     document.querySelector('.history').innerHTML = massiv_hero_history[i];
-    document.querySelector('.person').src = hero_logo[i];
     if (i==4) {
         audio.play();     
               }
